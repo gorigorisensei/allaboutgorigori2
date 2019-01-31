@@ -1,6 +1,6 @@
 html,body {
   margin: 0;
-padding: 0;
+
 width: 100%;
 }
 
@@ -12,22 +12,23 @@ width: 100%;
 }
 
 .allabout {
+
   color: #283148;
 position: relative;
   top: 70px;
-
+text-align: center;
  width:100%;
   font-size: 5rem;
   font-family: 'Concert One', cursive;
-  margin: 0;
+
 }
 
 .divmiddle {
 
   background-color: #74b49b;
-  height: 400px;
+  　height: 900px;
   width: 100%;
-  padding: 50px;
+　
   margin: 0 auto 0 auto;
 
 }
