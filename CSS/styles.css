@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   width: 100%;
+
 }
 
 .torupic {
@@ -90,12 +91,14 @@ Height:185.125rem;
 }
 
 .paragraph {
+  color:#4a4a48;
   line-height: 2;
   font-family: 'Exo 2', sans-serif;
   font-size: 1.25rem;
 }
 
 .paragraphja {
+    color:#4a4a48;
     line-height: 2;
   font-family: 'Sawarabi Mincho', sans-serif;
 }
@@ -150,7 +153,6 @@ display: inline-block;
   height:12.5rem;
 text-align: center;
 
-  position: relative;
   margin: 0;
 }
 
@@ -199,4 +201,12 @@ position: relative;
   text-decoration: none;
 }
 .copy{
-color: #EAF6F6;}
+color: #EAF6F6;
+position: relative;
+left: 30px;}
+
+a { text-decoration: none;}
+
+a:hover{
+  color: #207e82;
+}
