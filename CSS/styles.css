@@ -1,7 +1,6 @@
-html,body {
+html, body {
   margin: 0;
-
-width: 100%;
+  width: 100%;
 }
 
 .torupic {
@@ -12,40 +11,36 @@ width: 100%;
 }
 
 .allabout {
-
-  color: #283148;
-position: relative;
-  top: 70px;
-text-align: center;
- width:100%;
+  color: #41aaa8;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  width: 100%;
   font-size: 5rem;
-  font-family: 'Concert One', cursive;
-
+    font-family: 'Bungee Inline', cursive;
 }
 
 .divmiddle {
-
-  background-color: #74b49b;
-  　height: 900px;
+  background-color: #c8e8ed;
+  height: 600px;
   width: 100%;
-　
   margin: 0 auto 0 auto;
-
 }
 
 .myself {
-  font-size: 3rem;
-  color: #222831;
-  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  color: #41aaa8;
+font-family: 'Patrick Hand SC', cursive;
+  position: relative;
+  top:70px;
   width: 95%;
-
   text-align: center;
+
 }
 
 .top {
   background-color: #acdeaa;
   height: 6%;
-
 }
 
 .bottomcat {
@@ -63,33 +58,34 @@ text-align: center;
 
 .Teacherpic {
   height: 200px;
-  width: 200px;
+  width: 24%;
+  float: right;
+  margin-left: 20px;
 }
 
 .middle-container {
   text-align: center;
-
   margin: 0;
-  height: 140.5em;
+Height:2850px;
   width: 100%
 }
 
 .hello {
   position: relative;
-  top:100px;
+  top: 100px;
 }
 
 .h2 {
   color: #074684;
   font-family: 'Lato', sans-serif;
   font-size: 2.875rem;
-    line-height: 2;
+  line-height: 2;
 }
 
 .h3 {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.56rem;
-  color:  #11999E;
+  color: #11999E;
   line-height: 2;
 }
 
@@ -100,12 +96,15 @@ text-align: center;
 }
 
 .paragraphja {
+    line-height: 2;
   font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .programmingsan {
-  width: 200px;
+  width: 24%;
   height: 200px;
+    float: left;
+    margin-right: 20px;
 }
 
 .hr {
@@ -119,46 +118,85 @@ text-align: center;
 }
 
 .skill-row2 {
-  position: relative;
-  top: 30px;
-}
+  text-align: left;
+  margin: 100px 0 100px 0;
+ display: inline-block;
+  width: 50%;
 
+}
+.translatorpic { width: 24%;
+float: left;
+  margin-right: 20px;}
 .skill-row3 {
-  position: relative;
-  top: 30px;
-  margin: 0;
+
+text-align: left;
+  margin: 100px 0 100px 0;
+display: inline-block;
+  width: 50%;
 }
 
 .skill-row {
-  position: relative;
-  top: 30px;
+  text-align: left;
+    margin: 100px 0 100px 0;
+  display: inline-block;
+  width: 50%;
+
 }
 
-
 .bottom-container {
-  background-color: #cdffeb;
+
+  background-color: #8fbbaf;
   width: 100%;
-  height: 800px;
-  text-align: center;
+  height: 200px;
+text-align: center;
+
   position: relative;
   margin: 0;
 }
 
-.btn { position: relative;
-      margin: auto;
-     font-size: 2rem;
-    color: #11999E}
-    .footer-link1 { display: inline
-  ;
-  position: relative;
-       left:120px;
-       bottom: 36px;
-         font-size: 2rem;
-        color: #11999E}
-        .footer-link2 {
-          position: relative;
-         right: 110px;
-               bottom: 74px;
-                 font-size: 2rem;
-                color: #11999E;
-        }
+
+
+.footer-link1 {
+display: inline-block;
+  font-size: 2rem;
+  font-family: 'Hanalei Fill', cursive;
+  color: #34894d;
+  margin: 70px 50px 30px 50px;
+}
+
+.footer-link2 {
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 2rem;
+  color: #34894d;
+}
+.btn {
+position: relative;
+  top: 40px;
+   text-align: center;
+  background: #95db8a;
+  background-image: -webkit-linear-gradient(top, #95db8a, #4ea35f);
+  background-image: -moz-linear-gradient(top, #95db8a, #4ea35f);
+  background-image: -ms-linear-gradient(top, #95db8a, #4ea35f);
+  background-image: -o-linear-gradient(top, #95db8a, #4ea35f);
+  background-image: linear-gradient(to bottom, #95db8a, #4ea35f);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5fedd5;
+  background-image: -webkit-linear-gradient(top, #5fedd5, #3799db);
+  background-image: -moz-linear-gradient(top, #5fedd5, #3799db);
+  background-image: -ms-linear-gradient(top, #5fedd5, #3799db);
+  background-image: -o-linear-gradient(top, #5fedd5, #3799db);
+  background-image: linear-gradient(to bottom, #5fedd5, #3799db);
+  text-decoration: none;
+}
+.copy{
+color: #EAF6F6;}
