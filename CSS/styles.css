@@ -1,49 +1,49 @@
 html, body {
   margin: 0;
   width: 100%;
+}
+body {text-align: center;}
+h1,h2,h3,h4,h5,h6 { text-align: center;}
 
+.hr {
+  display: block;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 15px;
+  border-color: grey;
+  width: 10%;
+  margin-top: 0;
 }
 
-.torupic {
-  height: 11.25rem;
-  width: 12.5rem;
-  position: relative;
-  top: 4.375rem;
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
-.allabout {
-  color: #41aaa8;
-  position: relative;
-  top: 9.375rem;
-  text-align: center;
-  width: 100%;
-  font-size: 5rem;
-    font-family: 'Bungee Inline', cursive;
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-.divmiddle {
-  background-color: #c8e8ed;
-  height: 37.5rem;
-  width: 100%;
-  margin: 0 auto 0 auto;
-}
-
-.myself {
+.navbar-brand {
+  font-family: "Ubuntu";
   font-size: 2.5rem;
-  color: #41aaa8;
-font-family: 'Patrick Hand SC', cursive;
-  position: relative;
-  top:70px;
-  width: 95%;
-  text-align: center;
-
+  font-weight: bold;
 }
 
-.top {
-  background-color: #acdeaa;
-  height: 6%;
+.navitem {
+  padding: 0 18px;
 }
 
+.navlink {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Title section */
+.title { padding: 7% 10%;
+  background-color: #F0FFFF;
+}
 .bottomcat {
   height: 9.375rem;
   width: 9.375rem;
@@ -52,11 +52,47 @@ font-family: 'Patrick Hand SC', cursive;
 .topdog {
   height: 10.625rem;
   width: 10.625rem;
-  position: absolute;
-  right: 1.875rem;
-  top: 1.25rem;
+  position: relative;
+  left: 50rem;
+  bottom: 2rem;
 }
 
+.allabout {
+  color: #41aaa8;
+  width: 100%;
+  font-size: 5rem;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.myself {
+  font-size: 2.5rem;
+  color: #41aaa8;
+font-family: 'Patrick Hand SC', cursive;
+text-align: center;
+}
+
+
+/* Profile section  */
+
+.middle-container {
+  padding: 7%;
+  background-color: #fff;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+.torupic {
+  height: 11.25rem;
+  width: 12.5rem;
+  position: relative;
+  top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* Skills */
+.skills {
+padding: 10% 0 5% 0;
+}
 .Teacherpic {
   height: 12.5rem;
   width: 24%;
@@ -64,19 +100,24 @@ font-family: 'Patrick Hand SC', cursive;
   margin-left: 1.25rem;
 }
 
-.middle-container {
-  text-align: center;
-  margin: 0;
-Height:185.125rem;
-  width: 100%
+
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23494e44' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23494e44' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 
 .hello {
   position: relative;
   top: 100px;
 }
 
-.h2 {
+
+.h2{
   color: #074684;
   font-family: 'Lato', sans-serif;
   font-size: 2.875rem;
@@ -110,16 +151,6 @@ Height:185.125rem;
     margin-right: 1.25rem;
 }
 
-.hr {
-  display: block;
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 15px;
-  border-color: grey;
-  width: 10%;
-  margin-top: 0;
-}
-
 .skill-row2 {
   text-align: left;
   margin: 6.25rem 0 6.25rem 0;
@@ -146,9 +177,16 @@ display: inline-block;
 
 }
 
+/* contacts */
+
+.contacts{
+ text-align: center;}
+
+/* footer  */
+
 .bottom-container {
 
-  background-color: #8fbbaf;
+  background-color: #F0FFFF;
   width: 100%;
   height:12.5rem;
 text-align: center;
@@ -156,24 +194,26 @@ text-align: center;
   margin: 0;
 }
 
-
+.footer-links {
+ padding: 2%;
+}
 
 .footer-link1 {
-display: inline-block;
   font-size: 2rem;
   font-family: 'Hanalei Fill', cursive;
-  color: #34894d;
-  margin: 70px 50px 30px 50px;
+  color: #000033;
+  display: inline;
+  margin-right: 2rem;
 }
 
 .footer-link2 {
   font-family: 'Hanalei Fill', cursive;
   font-size: 2rem;
-  color: #34894d;
+  color: #000033;
 }
 .btn {
 position: relative;
-  top: 2.5rem;
+  top: 1rem;
    text-align: center;
   background: #95db8a;
   background-image: -webkit-linear-gradient(top, #95db8a, #4ea35f);
@@ -201,12 +241,26 @@ position: relative;
   text-decoration: none;
 }
 .copy{
-color: #EAF6F6;
+color: #000033;
 position: relative;
-left: 30px;}
+top: 2rem;}
+
+
 
 a { text-decoration: none;}
 
 a:hover{
   color: #207e82;
+}
+
+@media (max-width: 900px) {
+.topdog {
+  height: 10.625rem;
+  width: 10.625rem;
+  position: static;
+}
+.bottomcat {
+  position: relative;
+  left: 25rem;
+}
 }
