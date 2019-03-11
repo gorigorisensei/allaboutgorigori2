@@ -79,6 +79,7 @@ text-align: center;
   margin: 0;
   width: 100%;
   text-align: center;
+
 }
 .torupic {
   height: 11.25rem;
@@ -86,6 +87,8 @@ text-align: center;
   position: relative;
   top: 4rem;
   margin-bottom: 2rem;
+  border-radius: 100%;
+  transform:rotate(90deg);
 }
 
 /* Skills */
@@ -125,7 +128,7 @@ line-height: 2;}
 
 .h3 {
   font-family:  'Dosis', sans-serif;
-  font-size: 1.56rem;
+  font-size: 3rem;
   color: #074684;
   line-height: 2;
 }
@@ -134,14 +137,16 @@ line-height: 2;}
   color:#4a4a48;
   line-height: 2;
   font-family: 'Exo 2', sans-serif;
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 .paragraphja {
     color:#4a4a48;
-    line-height: 2;
+    line-height: 2.25rem;
   font-family: 'Sawarabi Mincho', sans-serif;
 }
+
+
 
 .programmingsan {
   width: 24%;
