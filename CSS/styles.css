@@ -204,16 +204,16 @@ text-align: center;
 
 .footer-link1 {
   font-size: 2rem;
-  font-family: 'Hanalei Fill', cursive;
-  color: #000033;
+  font-family:  'Dosis', sans-serif;
+  color: #F6F6F6;
   display: inline;
   margin-right: 2rem;
 }
 
 .footer-link2 {
-  font-family: 'Hanalei Fill', cursive;
+  font-family:  'Dosis', sans-serif;
   font-size: 2rem;
-  color: #000033;
+  color: #F6F6F6;
 }
 .btn {
 position: relative;
