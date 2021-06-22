@@ -34357,16 +34357,16 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  margin: 22px auto 0 0;
+  margin: 0 auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
-  max-width: 64px;
-  max-height: 64px;
+  max-width: 219px;
+  max-height: 219px;
 }
 
 .u-header .u-menu-1 {
-  margin: -44px 0 34px auto;
+  margin: -110px 0 53px auto;
 }
 
 .u-header .u-nav-1 {
@@ -34382,7 +34382,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    margin-left: -50px;
+  }
+}
 .u-footer {
   background-image: none;
 }
