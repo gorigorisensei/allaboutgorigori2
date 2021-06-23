@@ -77,18 +77,18 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-shape-1 {
-    height: 298px;
+    height: 200px;
   }
 
   .u-section-1 .u-image-1 {
     width: 150px;
     height: 150px;
-    margin-top: -111px;
+    margin-top: -115px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
-    margin-top: 28px;
+    margin-top: 32px;
     margin-left: calc(((100% - 340px) / 2));
     margin-right: calc(((100% - 340px) / 2));
   }
@@ -305,14 +305,14 @@
   font-size: 3rem;
   font-family: Roboto, sans-serif;
   font-weight: 700;
-  margin: 54px 192px 0 0;
+  margin: 19px 192px 0 0;
 }
 
 .u-section-3 .u-image-1 {
   width: 269px;
   height: 219px;
   object-position: 60.81% 50%;
-  margin: 25px auto 0 9px;
+  margin: 60px auto 0 10px;
 }
 
 .u-section-3 .u-image-2 {
@@ -326,25 +326,13 @@
 }
 
 .u-section-3 .u-container-layout-2 {
-  padding: 30px 154px 30px 30px;
+  padding: 30px 145px 30px 30px;
 }
 
 .u-section-3 .u-text-2 {
-  font-size: 1.5rem;
-  font-family: NanumGothic;
-  margin: 177px 10px 0 0;
-}
-
-.u-section-3 .u-icon-1 {
-  color: rgb(17, 17, 17) !important;
-}
-
-.u-section-3 .u-icon-2 {
-  color: rgb(17, 17, 17) !important;
-}
-
-.u-section-3 .u-icon-3 {
-  color: rgb(17, 17, 17) !important;
+  font-size: 1.875rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 181px 10px 0;
 }
 
 .u-section-3 .u-btn-1 {
@@ -370,6 +358,7 @@
   }
 
   .u-section-3 .u-text-2 {
+    margin-left: 0;
     margin-right: 0;
   }
 }

@@ -34372,22 +34372,23 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 202px;
-  height: 202px;
-  margin: -56px auto 56px 0;
+  width: 256px;
+  height: 256px;
+  animation-duration: 1000ms;
+  margin: -56px auto 2px 0;
 }
 
 
 
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 423px;
+    min-height: 381px;
   }
 
   .u-header .u-image-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-bottom: 33px;
   }
 }
 .u-footer {
