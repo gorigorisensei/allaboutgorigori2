@@ -1,20 +1,20 @@
 .u-section-1 {
-  min-height: 862px;
+  min-height: 859px;
 }
 
 .u-section-1 .u-shape-1 {
-  height: 420px;
-  margin-top: -16px;
+  height: 227px;
+  margin-top: 0;
   margin-bottom: 0;
   background-image: none;
 }
 
 .u-section-1 .u-image-1 {
-  width: 300px;
-  height: 300px;
+  width: 277px;
+  height: 277px;
   background-image: url("images/thirosawa-indeed-0.jpg");
   background-position: 50% 50%;
-  margin: -254px auto 0;
+  margin: -129px auto 0;
 }
 
 .u-section-1 .u-text-1 {
@@ -23,11 +23,12 @@
   letter-spacing: 4px;
   font-size: 3rem;
   width: 554px;
-  margin: 93px auto 0;
+  margin: 112px auto 0;
 }
 
 .u-section-1 .u-text-2 {
-  margin: 20px 362px 0 387px;
+  width: 551px;
+  margin: 23px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -36,33 +37,41 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  margin: 30px auto 60px;
+  margin: 50px auto 60px;
   padding: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-2 {
     width: 527px;
-    margin-left: 287px;
-    margin-right: 262px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-text-2 {
-    margin-left: 177px;
-    margin-right: 152px;
+  .u-section-1 .u-image-1 {
+    width: 274px;
+    height: 274px;
+    margin-top: -228px;
+    margin-right: calc(((100% - 720px) / 2) + 210px);
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-top: -204px;
+    margin-right: auto;
+  }
+
   .u-section-1 .u-text-1 {
-    width: 540px;
+    width: auto;
+    margin-top: 88px;
+    margin-left: calc(((100% - 540px) / 2));
+    margin-right: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-text-2 {
+    margin-right: calc(((100% - 540px) / 2) + 13px);
     margin-left: calc(((100% - 540px) / 2));
-    margin-right: calc(((100% - 540px) / 2));
   }
 }
 
@@ -79,7 +88,6 @@
 
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
-    width: 340px;
     margin-top: 28px;
     margin-left: calc(((100% - 340px) / 2));
     margin-right: calc(((100% - 340px) / 2));
@@ -324,7 +332,19 @@
 .u-section-3 .u-text-2 {
   font-size: 1.5rem;
   font-family: NanumGothic;
-  margin: 172px 10px 0 0;
+  margin: 177px 10px 0 0;
+}
+
+.u-section-3 .u-icon-1 {
+  color: rgb(17, 17, 17) !important;
+}
+
+.u-section-3 .u-icon-2 {
+  color: rgb(17, 17, 17) !important;
+}
+
+.u-section-3 .u-icon-3 {
+  color: rgb(17, 17, 17) !important;
 }
 
 .u-section-3 .u-btn-1 {
@@ -390,15 +410,26 @@
     padding-right: 10px;
   }
 
+  .u-section-3 .u-layout-cell-2 {
+    min-height: 422px;
+  }
+
   .u-section-3 .u-container-layout-2 {
-    padding-left: 10px;
     padding-right: 10px;
+    padding-left: 8px;
+  }
+
+  .u-section-3 .u-text-2 {
+    width: auto;
+    margin-top: 48px;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 890px;
+    min-height: 905px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
@@ -407,44 +438,48 @@
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 586px;
+    min-height: 460px;
   }
 
   .u-section-3 .u-container-layout-1 {
-    padding-right: 7px;
+    padding-right: 0;
     padding-bottom: 78px;
   }
 
   .u-section-3 .u-text-1 {
     width: auto;
     font-size: 1.875rem;
-    margin-top: 30px;
+    margin-top: 57px;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
   .u-section-3 .u-image-1 {
-    width: 192px;
-    height: 143px;
-    margin-top: 59px;
-    margin-left: 27px;
+    width: 191px;
+    height: 135px;
+    margin-top: 62px;
+    margin-right: 75px;
+    margin-left: 74px;
   }
 
   .u-section-3 .u-image-2 {
-    width: 153px;
-    height: 145px;
-    margin-top: 74px;
+    width: 128px;
+    height: 117px;
+    margin-top: 30px;
+    margin-right: auto;
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 304px;
+    min-height: 328px;
   }
 
   .u-section-3 .u-container-layout-2 {
+    padding-right: 9px;
     padding-bottom: 23px;
   }
 
   .u-section-3 .u-text-2 {
     font-size: 1.25rem;
-    width: auto;
     margin-top: 0;
   }
 }.u-section-4 {
