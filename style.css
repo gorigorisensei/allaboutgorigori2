@@ -15,3 +15,8 @@ iframe {
     border-style:none;
 }
 
+.content {
+ background-image: url("images/mountain.jpg");
+ background-position: center bottom;
+ background-repeat: no-repeat;
+}
