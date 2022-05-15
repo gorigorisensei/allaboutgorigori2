@@ -12,3 +12,10 @@ iframe {
     display: block;
     border-style:none;
 }
+
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
