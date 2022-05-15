@@ -1,6 +1,7 @@
 body {
  background-color: #cccccc;
- background-image: url("images/back_up.jpg") no-repeat top center;
+ background-image: url("images/back_up.jpg");
+ background-repeat: no-repeat;
 }
 
 h2 {
