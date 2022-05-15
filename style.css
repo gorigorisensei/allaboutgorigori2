@@ -7,3 +7,8 @@ h2 {
 color:57595D;
 font-family: "Lucida Console", Monaco, monospace;
 }
+
+iframe {
+    display: block;
+    border-style:none;
+}
