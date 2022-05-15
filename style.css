@@ -7,7 +7,7 @@ body {
  background-color: #cccccc;
  background-image: url("images/back_up.jpg");
  background-repeat: no-repeat;
- background: #FFF url(images/mountain.png) no-repeat bottom center;
+ background: #FFF url("images/mountain.jpg") no-repeat bottom center;
 }
 
 h2 {
