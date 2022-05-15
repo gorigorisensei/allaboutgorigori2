@@ -18,5 +18,6 @@ iframe {
 }
 
 .last { 
- background-image: url("images/back.jpg");
+ background-image: url("images/back.jpg") no-repeat top center;
 }
+ 
