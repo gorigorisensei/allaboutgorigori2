@@ -1,5 +1,4 @@
 body {
- background-image: url("images/back.jpg");
  background-color: #cccccc;
 }
 
@@ -13,9 +12,11 @@ iframe {
     border-style:none;
 }
 
-<style>
 .content {
   max-width: 500px;
   margin: auto;
 }
-</style>
+
+.last { 
+ background-image: url("images/back.jpg");
+}
