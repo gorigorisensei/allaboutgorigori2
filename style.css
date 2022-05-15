@@ -2,3 +2,8 @@ body {
  background-image: url("goripic.jpg");
  background-color: #cccccc;
 }
+
+h2 {
+color:57595D;
+font-family: "Lucida Console", Monaco, monospace;
+}
